@@ -1,5 +1,5 @@
 const { Schema, model } = require('mongoose');
-const { handleMongooseError, HttpError } = require('../helpers');
+const { handleMongooseError } = require('../helpers');
 const { emailRegex, SUBSCRIPTIONS_ENUM } = require('../constants');
 
 const Joi = require('joi');
